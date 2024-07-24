@@ -1,0 +1,10 @@
+#idbg_index
+{
+    background: linear-gradient(to right, #0040ff, #eb00f7);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

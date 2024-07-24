@@ -9,7 +9,6 @@
     <!--图标,如没有指定,默认favicon.ico-->
 
     <link rel="icon" href="./image/favicon.ico">
-    
     <!--百度统计-->
     <script>
       var _hmt = _hmt || [];
@@ -21,22 +20,36 @@
       })();
     </script>
     <title>spider</title>
-    <style>
-        body {
-          background: linear-gradient(to right, #0040ff, #eb00f7);
-          margin: 0;
-          height: 100vh;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-        }
-    </style>
+  <style>
+    body
+    {
+    background: linear-gradient(to right, #0040ff, #eb00f7);
+    }
+    .p
+    {
+      margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    }
+    .input_index{
+      position: fixed;
+      top:0;
+      width: auto;
+      height: auto;
+      text-align: center;
+    }
+  </style>
 </head>
   <body>
-    <p style="font-family:楷体;color:black;font-size:60px;">欢迎访问 </p>
-    <p style="font-family:Times New Roman;color:black;font-size:60px">spider</p>
-    <br>
-    <input type="text" name="http_txt" placeholder="请输入网址">
+    <!--居中
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+  -->
+    <p class="p" style="font-family:Times New Roman;color:black;font-size:60px;text-align:center;">欢迎访问 spider</p>
+    <input type="text" class="input_index" name="http_txt" placeholder="请输入网址">
   </body>
 </html>
